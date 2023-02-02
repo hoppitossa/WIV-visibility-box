@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+
+
+/* checkboxes(with JavaScript) */
+
+
+.checkboxes {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+
+
+/* ifc bilden(with JavaScript) */
+#viewer-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
+#file-input{ 
+    position: absolute;
+}
