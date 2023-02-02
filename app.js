@@ -1,4 +1,4 @@
-import { Color, MeshBasicMaterial } from 'three';
+import { Color, MeshBasicMaterial,BoxGeometry,Mesh } from 'three';
 import { IfcViewerAPI } from 'web-ifc-viewer';
 
 import {
@@ -31,7 +31,7 @@ input.addEventListener(
     model.removeFromParent();
 
     await setupAllCategories();
-    
+    viewer.scene.add(cubeMesh);
 });
 
 
